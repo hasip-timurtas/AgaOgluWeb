@@ -1,0 +1,41 @@
+ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 100px;
+}
+
+.header-area {
+    width: 68.51%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    height: 100px;
+    background-image: url('../img/agaoglu_logo.png');
+    background-size: 63px 74px;
+    background-position: 0px 13px;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    height: 100px;
+}
+
+.menu ul li {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+
+.social-media {
+    height: 60px;
+}
+
+section img {
+    width: 100%;
+}

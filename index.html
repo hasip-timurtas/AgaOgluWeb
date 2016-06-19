@@ -6,16 +6,71 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
 <div class="container">
-    <div class="row">
-        <div class="col-md-12 target">
+    <header>
+        <div class="header-area row">
+            <div class="logo col-md-4">
 
+            </div>
+            <div class="menu col-md-8">
+                <div class="social-media">
+
+                </div>
+                <ul>
+                    <li>AnaSayfa</li>
+                    <li>Kurumsal</li>
+                    <li>Vizyon</li>
+                    <li>Misyon</li>
+                    <li>Projeler</li>
+                    <li>Basın Odası</li>
+                    <li>İletişim</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</div>
+<section>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="src/img/banner.jpg" alt="Chania">
+            </div>
+
+            <div class="item">
+                <img src="src/img/banner.jpg" alt="Chania">
+            </div>
+
+            <div class="item">
+                <img src="src/img/banner.jpg" alt="Flower">
+            </div>
+
+            <div class="item">
+                <img src="src/img/banner.jpg" alt="Flower">
+            </div>
         </div>
     </div>
+</section>
+
+<div class="container">
+    <footer>
+
+    </footer>
 </div>
 </body>
-<script type="text/babel" src="App.jsx"></script>
+<script type="text/babel" src="src/js/App.jsx"></script>
