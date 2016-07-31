@@ -1,0 +1,76 @@
+<manifest alg="2" build="2015.2.0.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" ftp_hostname="ftp://ftp.agaogluyapigrup.com" ftp_rootfolder="/httpdocs" exportTarget="FTP" domain="www.agaogluyapigrup.com" resolutions="1x" timestamp="1469963053415">
+  <folder name="css">
+    <file name="site_global.css" crc="3916556066"/>
+    <file name="kurumsal.css" crc="403320767" ref="kurumsal"/>
+    <file name="projeler.css" crc="254023248" ref="projeler"/>
+    <file name="index.css" crc="149042821" ref="index"/>
+    <file name="ileti_im.css" crc="4027970440" ref="iletişim"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="312386352" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="museutils.js" crc="4155826306" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="whatinput.js" crc="86476730" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="museconfig.js" crc="328327953" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="webpro.js" crc="4078243563" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="musewpslideshow.js" crc="4115829919" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="jquery.museoverlay.js" crc="3936724022" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="touchswipe.js" crc="157639107" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="jquery.watch.js" crc="117772946" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="jquery.musemenu.js" crc="3765356681" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="require.js" crc="228336483" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="pie.js" crc="3827607177" ref="projeler"/>
+    <file name="form_check.php" crc="474517188" ref="iletişim"/>
+    <file name="form_throttle.php" crc="495784356" ref="iletişim"/>
+    <file name="form_process.php" crc="4149049960" ref="iletişim"/>
+    <file name="form-u3152.php" crc="192392323" ref="iletişim"/>
+  </folder>
+  <folder name="images">
+    <file name="cactus.jpg" crc="491424337" seo="true" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="blank.gif" crc="4208392903" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="road.jpg" crc="180693847" seo="true" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="trees.jpg" crc="4071309946" seo="true" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="cactus134x89.jpg" crc="4257605421" seo="true" ref="index"/>
+    <file name="road134x89.jpg" crc="492346434" seo="true" ref="index"/>
+    <file name="trees134x89.jpg" crc="476477971" seo="true" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="yapıştırılmış-svg-37081x381.svg" crc="4176079696" seo="true" ref="index"/>
+    <file name="yapıştırılmış svg 37081x381_poster_.png" crc="321034823" ref="index"/>
+    <file name="pasted-svg-37181x276.svg" crc="3774117604" seo="true" ref="index:kurumsal:projeler:iletişim"/>
+    <file name="pasted svg 37181x276_poster_.png" crc="359580605" ref="index"/>
+    <file name="cactus445x297.jpg" crc="184616090" seo="true" ref="projeler"/>
+    <file name="road445x297.jpg" crc="3785938901" seo="true" ref="projeler"/>
+    <file name="trees445x297.jpg" crc="4062123768" seo="true" ref="projeler"/>
+    <file name="u3162-17.png" crc="4087326588" ref="iletişim"/>
+    <file name="u3162-17-r.png" crc="3834524910" ref="iletişim"/>
+    <file name="u3162-17-m.png" crc="4251038920" ref="iletişim"/>
+    <file name="u3162-17-fs.png" crc="4052395662" ref="iletişim"/>
+  </folder>
+  <file name="index.html" crc="319511917" seo="true" mt="1469962808969" redirect="true"/>
+  <file name="kurumsal.html" crc="276871237" seo="true" mt="1469961295967" redirect="true"/>
+  <file name="projeler.html" crc="4234657733" seo="true" mt="1469961316521" redirect="true"/>
+  <file name="iletişim.html" crc="536613634" seo="true" mt="1469961354891" redirect="true"/>
+  <site/>
+  <renditions>
+    <rendition device="desktop">
+      <page name="Anasayfa" filename="index.html" muse_href="page:U93" master="U72">
+        <breakpoint uid="U83" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+      <masterPage name="A-Master" master="U62" uid="U72">
+        <breakpoint uid="U73" maxwidth="960" minwidth="0" squishy="true"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U62">
+        <breakpoint uid="U63" maxwidth="960" minwidth="0" squishy="true"/>
+      </masterPage>
+      <page name="Kurumsal" filename="kurumsal.html" muse_href="page:U743" master="U72">
+        <breakpoint uid="U595" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Projeler" filename="projeler.html" muse_href="page:U1384" master="U72">
+        <breakpoint uid="U1271" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+      <page name="İletişim" filename="iletişim.html" muse_href="page:U2870" master="U72">
+        <breakpoint uid="U2743" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+    </rendition>
+  </renditions>
+</manifest>
