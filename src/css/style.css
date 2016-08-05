@@ -99,8 +99,8 @@ body {
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 146px;
-    background-color: #173D56;
+    height: 101px;
+    background-color: #001317;
 }
 
 /*-----------------------------------*/
@@ -134,24 +134,33 @@ body {
     color: #FFFFFF;
     line-height: 19px;
     text-align: center;
-    font-size: 16px;
+    font-size: 17px;
     font-family: open-sans, sans-serif;
     font-weight: 400;
     top: 20px;
+}
+
+.navbar-header {
+    margin-left: 117px !important;
 }
 
 .navbar-right a {
     color: #fff !important;
 }
 
+.navbar-right {
+    /*margin-right: 143px;  Menü */
+    margin-top: 3px;
+}
+
+.navbar-right li {
+    margin-left: 28px;
+}
+
 .agaLogo .navbar-brand {
     height: 121px;
 }
 
-.agaLogo .navbar-right {
-    margin-top: 20px;
-    opacity: 1;
-}
 
 .agaLogo .nav > li > a {
     padding-top: 30px;
@@ -169,6 +178,22 @@ body {
 
 .navbar-brand > img {
     height: 86px;
-    margin-top:20px;
+    margin-top: 19px;
     width: 83px;
+}
+
+
+/* İMAGE SLİDER*/
+
+.carousel-inner > .item > img {
+    width: 100%;
+    /*height: 1280px;
+    margin-top: -363px;*/
+
+    height: 127%;
+    margin-top: -4%;
+}
+
+.carousel-indicators {
+    bottom: 100px;
 }
