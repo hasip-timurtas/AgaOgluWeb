@@ -91,14 +91,13 @@ html {
 
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 60px;
+    margin-bottom: 101px;
 }
 
 .footer {
     position: absolute;
-    bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
+    bottom: 0;
     height: 101px;
     background-color: #001317;
 }
@@ -109,7 +108,7 @@ body {
     overflow: hidden;
     left: 0px;
     top: 0px;
-    position: fixed;
+    position: absolute;
     height: 100%;
     width: 100%;
     -moz-box-sizing: border-box;
@@ -149,7 +148,7 @@ body {
 }
 
 .navbar-right {
-    /*margin-right: 143px;  Menü */
+    /*margin-right: 143px;  MenÃ¼ */
     margin-top: 3px;
 }
 
@@ -160,7 +159,6 @@ body {
 .agaLogo .navbar-brand {
     height: 121px;
 }
-
 
 .agaLogo .nav > li > a {
     padding-top: 30px;
@@ -177,23 +175,324 @@ body {
 }
 
 .navbar-brand > img {
-    height: 86px;
     margin-top: 19px;
     width: 83px;
 }
 
-
-/* İMAGE SLİDER*/
+/* Ä°MAGE SLÄ°DER*/
 
 .carousel-inner > .item > img {
     width: 100%;
-    /*height: 1280px;
-    margin-top: -363px;*/
+    height: 1280px;
+    /* margin-top: -363px;*/
 
-    height: 127%;
+    /*height: 127%;*/
     margin-top: -4%;
 }
 
 .carousel-indicators {
     bottom: 100px;
+}
+
+.diger-logo .navbar-brand {
+    height: 79px;
+}
+
+.diger-logo .navbar-brand > img {
+    margin-top: 19px;
+    width: 57px;
+}
+
+.diger-logo .navbar-right {
+    margin-top: -10px;
+}
+
+/*----------ÜST SLİDER----------*/
+
+.ust-slider {
+    height: 279px;
+}
+
+#u3460 {
+    z-index: 10;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    background-color: transparent;
+    padding-bottom: 19px;
+    margin-bottom: -142px;
+    position: relative;
+    width: 53.63%;
+    margin-left: 26.49%;
+    top: 10px;
+}
+
+.colelem {
+    display: inline;
+    float: left;
+    clear: both;
+}
+
+#u3461 {
+    z-index: 11;
+    background-color: #FFFFFF;
+    padding-bottom: 25px;
+    position: relative;
+    margin-right: -10000px;
+    margin-top: 19px;
+    width: 95.87%;
+    left: 2.07%;
+}
+
+.grpelem, .accordion_wrapper {
+    display: inline;
+    float: left;
+}
+
+#u3462-4 {
+    z-index: 12;
+    min-height: 39px;
+    background-color: transparent;
+    line-height: 50px;
+    text-align: center;
+    font-size: 42px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    position: relative;
+    margin-right: -10000px;
+    margin-top: 25px;
+    width: 100%;
+}
+
+#u2861-4 {
+    z-index: 42;
+    min-height: 45px;
+    background-color: transparent;
+    line-height: 42px;
+    text-align: center;
+    font-size: 35px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+    position: relative;
+    width: 95.84%;
+    margin-left: 2.09%;
+    top: 171px;
+}
+
+#pu3148 {
+    z-index: 80;
+    width: 100%;
+    margin-top: 210px;
+}
+
+#u3148 {
+    z-index: 80;
+    min-height: 284px;
+    border-width: 0px;
+    border-color: transparent;
+    background-color: transparent;
+    position: relative;
+    margin-right: -10000px;
+    width: 46.36%;
+    left: 2.09%;
+}
+
+#pu3115-4 {
+    z-index: 64;
+    padding-bottom: 0px;
+    margin-right: -10000px;
+    width: 9.8%;
+    margin-left: 51.57%;
+}
+
+#pu3118-4 {
+    z-index: 48;
+    padding-bottom: 0px;
+    margin-right: -10000px;
+    width: 36.57%;
+    margin-left: 61.36%;
+}
+
+.iletisim-map {
+    margin-top: 300px;
+}
+
+.iletisim-map iframe {
+    width: 100%;
+}
+
+#widgetu3152 {
+    z-index: 81;
+    width: 0.01px;
+    height: 268px;
+    margin-top: 34px;
+    position: relative;
+    margin-left: 2.09%;
+}
+
+#widgetu3154 {
+    z-index: 82;
+    width: 922px;
+    height: 47px;
+    border-width: 0px;
+    border-color: transparent;
+    background-color: transparent;
+    position: relative;
+    margin-right: -10000px;
+    left: -1px;
+}
+
+.iletisim-form {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.iletisim-form input, textarea {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+    border: solid 1px black !important;
+    height: 26px !important;
+    font-size: 10px !important;
+}
+
+.iletisim-form button {
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    border-radius: 10px !important;
+    border: solid 1px black !important;
+    width: 130px;
+    height: 30px;
+}
+
+.iletisim-form textarea {
+    height: 80px !important;
+}
+
+.iletisim-form label {
+    color: rgba(0, 0, 0, 0.42);
+    line-height: 12px;
+    text-align: left;
+    font-size: 12px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+}
+
+#u1264-27 {
+    z-index: 42;
+    min-height: 527px;
+    background-color: transparent;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+    position: relative;
+    width: 95.84%;
+    margin-left: 2.09%;
+}
+
+#u1264-5, #u1264-7, #u1264-8, #u1264-9, #u1264-10, #u1264-11, #u1264-16, #u1264-17, #u1264-18, #u1264-19, #u1264-20, #u1264-25 {
+    font-size: 13px;
+    text-align: justify;
+    line-height: 16px;
+}
+
+#u1264-2, #u1264-3, #u1264-13, #u1264-14, #u1264-22, #u1264-23 {
+    font-size: 35px;
+    text-align: center;
+    line-height: 42px;
+}
+
+.kurumsal-aciklama {
+    margin-top: 272px;
+    padding-bottom: 50px;
+}
+
+.footer-area {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-image {
+    width: 57px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+}
+
+.footer-image img {
+    width: 57px;
+}
+
+.footer-content {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #FFFFFF;
+    line-height: 14px;
+    text-align: center;
+    font-size: 12px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    margin-top: 21px;
+    position: relative;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-header {
+        margin-left: 0px !important;
+    }
+
+    .carousel-indicators li {
+        width: 20px;
+        height: 20px;
+    }
+
+    .carousel-indicators .active {
+        width: 22px;
+        height: 22px;
+    }
+
+    .agaLogo .navbar-brand {
+        height: 0px;
+    }
+
+    .navbar-brand > img {
+        margin-top: 10px;
+        width: 60px;
+    }
+
+    .footer {
+        height: 86px;
+    }
+
+    #u2861-4 {
+        top: 135px;
+    }
+
+    #u3461 {
+        width: 85%;
+        left: 8.07%;
+    }
+
+    #u3462-4 {
+        margin-top: 10px;
+        height: 50px;
+    }
+
+    #u3462-4 p {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .footer-content p {
+        margin-top: -14px;
+    }
+
+
 }
