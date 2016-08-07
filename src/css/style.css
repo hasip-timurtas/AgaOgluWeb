@@ -354,7 +354,6 @@ body {
     -webkit-border-radius: 0px !important;
     -moz-border-radius: 0px !important;
     border-radius: 0px !important;
-    border: solid 1px black !important;
     height: 26px !important;
     font-size: 10px !important;
 }
@@ -363,7 +362,6 @@ body {
     -webkit-border-radius: 10px !important;
     -moz-border-radius: 10px !important;
     border-radius: 10px !important;
-    border: solid 1px black !important;
     width: 130px;
     height: 30px;
 }
