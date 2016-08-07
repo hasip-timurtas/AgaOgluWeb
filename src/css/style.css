@@ -150,6 +150,8 @@ body {
 .navbar-right {
     /*margin-right: 143px;  MenÃ¼ */
     margin-top: 3px;
+    right: 25%;
+    position: absolute;
 }
 
 .navbar-right li {
@@ -222,8 +224,8 @@ body {
     padding-bottom: 19px;
     margin-bottom: -142px;
     position: relative;
-    width: 53.63%;
-    margin-left: 26.49%;
+    width: 50%;
+    margin-left: 25%;
     top: 10px;
 }
 
@@ -443,6 +445,78 @@ body {
     border-color: transparent !important;
 }
 
+/*PROJELER*/
+
+.projects {
+    margin-top: 246px;
+}
+
+.all-projects {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.all-projects div {
+    float: left;
+    margin-left: 3%;
+    text-align: center;
+    font-size: 14px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    position: relative;
+    color: rgba(128, 128, 128, 0.7)
+}
+
+.all-projects div p:hover {
+    color: #000;
+
+}
+
+.proje-content {
+    padding-bottom: 22px;
+}
+
+.proje-content img {
+    width: 445px;
+}
+
+.proje-content .row {
+    margin-top: 57px;
+}
+
+.proje-content .row p {
+    margin-top: 25px;
+}
+
+.proje-content .row > div {
+    height: 296.72px;
+}
+
+.proje-right img {
+    float: right;
+}
+
+.proje-content .proje-detay-btn-right button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.proje-content .proje-detay-btn-left button {
+    position: absolute;
+    bottom: 0;
+}
+
+.proje-content button {
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    border-radius: 10px !important;
+    border: solid 1px black !important;
+    width: 130px;
+    height: 30px;
+}
+
 @media only screen and (max-width: 768px) {
     .navbar-header {
         margin-left: 0px !important;
@@ -494,5 +568,9 @@ body {
         margin-top: -14px;
     }
 
+    .all-projects div {
+        width: 100%;
+        font-size: 11px;
+    }
 
 }
