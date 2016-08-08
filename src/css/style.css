@@ -150,8 +150,8 @@ body {
 .navbar-right {
     /*margin-right: 143px;  MenÃ¼ */
     margin-top: 3px;
-    right: 25%;
-    position: absolute;
+    /*right: 25%;
+    position: absolute;*/
 }
 
 .navbar-right li {
@@ -476,7 +476,7 @@ body {
 }
 
 .proje-content img {
-    width: 445px;
+    width: 80%;
 }
 
 .proje-content .row {
