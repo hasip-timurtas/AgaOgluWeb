@@ -5,7 +5,7 @@ export default class Kurumsal extends React.Component {
     render() {
         return <div>
             <Header />
-            <div className="clearfix colelem" id="u3460">
+            <div className="container" id="u3460">
                 <div className="clearfix grpelem" id="u3461">
                     <div className="clearfix grpelem" id="u3462-4" data-muse-uid="U3462" data-muse-type="txt_frame">
                         <p>KURUMSAL</p>
@@ -15,7 +15,7 @@ export default class Kurumsal extends React.Component {
             <div className="container kurumsal-aciklama">
                 <div className="clearfix colelem" id="u1264-27" data-muse-uid="U1264"
                      data-muse-type="txt_frame">
-                    <p id="u1264-2">KURUMSAL</p>
+                    <p id="u1264-2">Biz Kimiz?</p>
                     <p id="u1264-3">&nbsp;</p>
                     <p id="u1264-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation

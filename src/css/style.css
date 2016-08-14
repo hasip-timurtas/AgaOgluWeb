@@ -133,14 +133,14 @@ body {
     color: #FFFFFF;
     line-height: 19px;
     text-align: center;
-    font-size: 17px;
+    font-size: 14px;
     font-family: open-sans, sans-serif;
     font-weight: 400;
     top: 20px;
 }
 
 .navbar-header {
-    margin-left: 117px !important;
+    /*  margin-left: 23px !important;*/
 }
 
 .navbar-right a {
@@ -198,6 +198,7 @@ body {
 
 .diger-logo .navbar-brand {
     height: 79px;
+    margin-left: 0px !important;
 }
 
 .diger-logo .navbar-brand > img {
@@ -222,10 +223,7 @@ body {
     border-color: #FFFFFF;
     background-color: transparent;
     padding-bottom: 19px;
-    margin-bottom: -142px;
     position: relative;
-    width: 50%;
-    margin-left: 25%;
     top: 10px;
 }
 
@@ -279,7 +277,7 @@ body {
     position: relative;
     width: 95.84%;
     margin-left: 2.09%;
-    top: 171px;
+    top: 50px;
 }
 
 #pu3148 {
@@ -317,7 +315,7 @@ body {
 }
 
 .iletisim-map {
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .iletisim-map iframe {
@@ -385,10 +383,7 @@ body {
     background-color: transparent;
     font-family: open-sans, sans-serif;
     font-weight: 300;
-    margin-top: 50px;
     position: relative;
-    width: 95.84%;
-    margin-left: 2.09%;
 }
 
 #u1264-5, #u1264-7, #u1264-8, #u1264-9, #u1264-10, #u1264-11, #u1264-16, #u1264-17, #u1264-18, #u1264-19, #u1264-20, #u1264-25 {
@@ -404,7 +399,7 @@ body {
 }
 
 .kurumsal-aciklama {
-    margin-top: 272px;
+    margin-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -446,7 +441,7 @@ body {
 /*PROJELER*/
 
 .projects {
-    margin-top: 246px;
+    margin-top: 100px;
 }
 
 .all-projects {
@@ -473,6 +468,7 @@ body {
 
 .proje-content {
     padding-bottom: 22px;
+    margin-left: -15px;
 }
 
 .proje-content img {
@@ -491,13 +487,18 @@ body {
     height: 296.72px;
 }
 
+.proje-content .row > div > img {
+    height: 296.72px;
+    width: 100%;
+}
+
 .proje-right img {
     float: right;
 }
 
 .proje-content .proje-detay-btn-right button {
     position: absolute;
-    right: 0;
+    right: 15px;
     bottom: 0;
 }
 
@@ -513,6 +514,11 @@ body {
     border: solid 1px black !important;
     width: 130px;
     height: 30px;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 @media only screen and (max-width: 768px) {
