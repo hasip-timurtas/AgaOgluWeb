@@ -225,6 +225,7 @@ body {
     padding-bottom: 19px;
     position: relative;
     top: 10px;
+    height: 152px;
 }
 
 .colelem {
@@ -468,7 +469,6 @@ body {
 
 .proje-content {
     padding-bottom: 22px;
-    margin-left: -15px;
 }
 
 .proje-content img {
@@ -517,8 +517,8 @@ body {
 }
 
 .container {
-    padding-right: 0px;
-    padding-left: 0px;
+    /*  padding-right: 0px;
+      padding-left: 0px;*/
 }
 
 @media only screen and (max-width: 768px) {
@@ -575,6 +575,10 @@ body {
     .all-projects div {
         width: 100%;
         font-size: 11px;
+    }
+
+    #u3460 {
+        height: 127px;
     }
 
 }
