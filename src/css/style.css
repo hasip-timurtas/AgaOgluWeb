@@ -226,6 +226,7 @@ body {
     position: relative;
     top: 10px;
     height: 152px;
+    padding:20px;
 }
 
 .colelem {
@@ -240,9 +241,7 @@ body {
     padding-bottom: 25px;
     position: relative;
     margin-right: -10000px;
-    margin-top: 19px;
-    width: 95.87%;
-    left: 2.07%;
+    width: 100%;
 }
 
 .grpelem, .accordion_wrapper {
@@ -552,12 +551,7 @@ body {
     #u2861-4 {
         top: 135px;
     }
-
-    #u3461 {
-        width: 85%;
-        left: 8.07%;
-    }
-
+    
     #u3462-4 {
         margin-top: 10px;
         height: 50px;
