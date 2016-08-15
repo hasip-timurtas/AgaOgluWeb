@@ -24,20 +24,45 @@ export default class Iletisim extends React.Component {
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.1297741445064!2d29.101683551306678!3d41.00053267919999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac882ab345d37%3A0x9b4a2af9b2b902cf!2sVaryap+Meridian+A+BLOK!5e0!3m2!1str!2str!4v1469624980731"
                             width="445" height="280" frameBorder="0" allowFullScreen=""></iframe>
                     </div>
-                    <div className="col-md-6">
-                        <div>
-                            <p><strong>ADRES:</strong> Barbaros Mah. Ihlamur Bulvarı No: 4B D:1 34746 <br/>
-                                Ataşehir/İstanbul</p>
-                        </div>
-                        <div>
-                            <p><strong>TELEFON:</strong> 0216 000 00 00</p>
-                        </div>
-                        <div>
-                            <p><strong>FAX:</strong> 0216 000 00 00</p>
-                        </div>
-                        <div>
-                            <p><strong>E-POSTA:</strong> info@agaogluyapigrup.com</p>
-                        </div>
+                    <div className="col-md-6 iletisim-address">
+                        <table>
+                            <tbody>
+                            <tr>
+                                <th>
+                                    ADRES:
+                                </th>
+                                <td>
+                                    Barbaros Mah. Ihlamur Bulvarı No: 4B D:1 34746 <br/>
+                                    Ataşehir/İstanbul
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    TELEFON:
+                                </th>
+                                <td>
+                                    0216 000 00 00
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    FAX:
+                                </th>
+                                <td>
+                                    0216 000 00 00
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    E-POSTA:
+                                </th>
+                                <td>
+                                    info@agaogluyapigrup.com
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+
                     </div>
                 </div>
                 <div className="iletisim-form">

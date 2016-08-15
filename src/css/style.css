@@ -226,7 +226,7 @@ body {
     position: relative;
     top: 10px;
     height: 152px;
-    padding:20px;
+    padding: 20px;
 }
 
 .colelem {
@@ -322,6 +322,22 @@ body {
     width: 100%;
 }
 
+.iletisim-address table {
+    width: 100%;
+}
+
+.iletisim-address table tr {
+    height: 88px;
+}
+
+.iletisim-address table th {
+    width: 100px;
+}
+
+.iletisim-address table th, td {
+    vertical-align: text-top;
+}
+
 #widgetu3152 {
     z-index: 81;
     width: 0.01px;
@@ -344,7 +360,6 @@ body {
 }
 
 .iletisim-form {
-    margin-top: 60px;
     margin-bottom: 50px;
 }
 
@@ -548,10 +563,6 @@ body {
         height: 86px;
     }
 
-    #u2861-4 {
-        top: 135px;
-    }
-    
     #u3462-4 {
         margin-top: 10px;
         height: 50px;
@@ -575,4 +586,42 @@ body {
         height: 127px;
     }
 
+    .iletisim-address {
+        margin-top: 20px;
+    }
+
+    .iletisim-address table tr {
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .iletisim-address {
+        margin-top: 20px;
+    }
+
+    .iletisim-address table tr {
+        height: 50px;
+    }
+
+    .all-projects div {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .proje-content .proje-description div {
+        height: 50px;
+    }
+
+    .proje-content .proje-description {
+        border-bottom: 1px solid #dad8d8;
+    }
+
+    .proje-content button {
+        position: initial !important;
+    }
+
+    .proje-content .row > div {
+        height: inherit;
+    }
 }

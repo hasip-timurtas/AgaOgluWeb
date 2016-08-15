@@ -31,7 +31,7 @@ export default class Projeler extends React.Component {
                         <div className="col-md-6">
                             <img src="src/images/cactus.jpg" alt="Chania"/>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 proje-description">
                             LOREM IPSUM <br/>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -47,7 +47,7 @@ export default class Projeler extends React.Component {
                         </div>
                     </div>
                     <div className="row proje-right">
-                        <div className="col-md-6">
+                        <div className="col-md-6 proje-description">
                             LOREM IPSUM <br/>
 
                             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
