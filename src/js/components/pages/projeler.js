@@ -1,9 +1,35 @@
 import React from 'react';
 import Header from '../partials/header';
-
+import ProjeLeft from '../partials/proje-left';
+import ProjeRight from '../partials/proje-right';
 
 export default class Projeler extends React.Component {
+    constructor() {
+        super();
+        this.state = {
 
+            projeler: {
+                resim: 'src/images/cactus.jpg',
+                aciklama: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation' +
+                'ullamco' +
+                'laboris nisi ut aliquip ex ea commodo consequat.'
+            },
+
+            bitenProjeler: [
+                {
+                    resim: 'src/images/cactus.jpg',
+                    aciklama: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation' +
+                    'ullamco' +
+                    'laboris nisi ut aliquip ex ea commodo consequat.'
+                }, {
+                    resim: 'src/images/road.jpg',
+                    aciklama: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation' +
+                    'ullamco' +
+                    'laboris nisi ut aliquip ex ea commodo consequat.'
+                }
+            ]
+        }
+    }
 
     render() {
         return <div>
@@ -27,45 +53,9 @@ export default class Projeler extends React.Component {
             </div>
             <div className="container">
                 <div className="proje-content">
-                    <div className="row proje-left">
-                        <div className="col-md-6">
-                            <img src="src/images/cactus.jpg" alt="Chania"/>
-                        </div>
-                        <div className="col-md-6 proje-description">
-                            LOREM IPSUM <br/>
+                    <ProjeLeft />
+                    <ProjeRight {...this.state.projeler} />
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation
-                                ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-
-                            <div className="proje-detay-btn-right">
-                                <button type="submit" className="btn btn-default">Detay Gör</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row proje-right">
-                        <div className="col-md-6 proje-description">
-                            LOREM IPSUM <br/>
-
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation
-                                ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-
-                            <div className="proje-detay-btn-left">
-                                <button type="submit" className="btn btn-default">Detay Gör</button>
-                            </div>
-                        </div>
-                        <div className="col-md-6">
-                            <img src="src/images/road.jpg" alt="Chania"/>
-
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
