@@ -5,7 +5,7 @@ export default class ProjeLeft extends React.Component {
         return (
             <div className="row proje-right">
                 <div className="col-md-6 proje-description">
-                    LOREM IPSUM <br/>
+                    {this.props.baslik} <br/>
 
                     <p> {this.props.aciklama}</p>
 
@@ -14,7 +14,7 @@ export default class ProjeLeft extends React.Component {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <img src={this.props.resim} alt="Chania"/>
+                    <img src={this.props.resim}/>
 
                 </div>
             </div>

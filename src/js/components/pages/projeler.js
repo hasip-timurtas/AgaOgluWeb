@@ -7,21 +7,37 @@ export default class Projeler extends React.Component {
     constructor() {
         super();
         this.state = {
-
-            projeler: {
-                resim: 'src/images/cactus.jpg',
-                aciklama: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation' +
-                'ullamco' +
-                'laboris nisi ut aliquip ex ea commodo consequat.'
-            },
-
+            projectsValue: null,
             bitenProjeler: [
                 {
+                    id: 1,
+                    baslik: '1 Lorem ipsum',
                     resim: 'src/images/cactus.jpg',
-                    aciklama: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation' +
+                    aciklama: 'dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation' +
                     'ullamco' +
                     'laboris nisi ut aliquip ex ea commodo consequat.'
                 }, {
+                    id: 2,
+                    baslik: '2 Lorem ipsum',
+                    resim: 'src/images/road.jpg',
+                    aciklama: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation' +
+                    'ullamco' +
+                    'laboris nisi ut aliquip ex ea commodo consequat.'
+                }
+            ],
+
+            devamEdenProjeler: [
+                {
+                    id: 3,
+                    baslik: '3 Lorem ipsum',
+                    resim: 'src/images/trees.jpg',
+                    aciklama: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation' +
+                    'ullamco' +
+                    'laboris nisi ut aliquip ex ea commodo consequat.'
+                },
+                {
+                    id: 4,
+                    baslik: '4 Lorem ipsum',
                     resim: 'src/images/road.jpg',
                     aciklama: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation' +
                     'ullamco' +
@@ -31,7 +47,42 @@ export default class Projeler extends React.Component {
         }
     }
 
+    componentDidMount(){
+        this.getTumProjects();
+    }
+
+
+    getBitenProjects() {
+        this.getProjects(this.state.bitenProjeler);
+    }
+
+    getDevamEdenProjects() {
+        this.getProjects(this.state.devamEdenProjeler);
+    }
+
+    getTumProjects() {
+        var tumProjects = this.state.bitenProjeler;
+        tumProjects = tumProjects.concat(this.state.devamEdenProjeler);
+        this.getProjects(tumProjects);
+
+    }
+
+    getProjects(state) {
+
+        var bitenProjeler = state.map(proje => {
+            if (proje.id % 2 == 1) {
+                return <ProjeLeft {...proje } key={proje.id}/>;
+            } else {
+                return <ProjeRight {...proje } key={proje.id}/>;
+            }
+        });
+
+        this.setState({projectsValue: bitenProjeler});
+    }
+
     render() {
+
+
         return <div>
             <Header />
             <div className="container">
@@ -45,17 +96,15 @@ export default class Projeler extends React.Component {
             </div>
             <div className="container projects">
                 <div className="all-projects">
-                    <div><p>TÜM PROJELER</p></div>
-                    <div><p>BİTEN PROJELER</p></div>
-                    <div><p>DEVAM EDEN PROJELER</p></div>
+                    <div><p onClick={this.getTumProjects.bind(this)}>TÜM PROJELER</p></div>
+                    <div><p onClick={this.getBitenProjects.bind(this)}>BİTEN PROJELER</p></div>
+                    <div><p onClick={this.getDevamEdenProjects.bind(this)}>DEVAM EDEN PROJELER</p></div>
 
                 </div>
             </div>
             <div className="container">
                 <div className="proje-content">
-                    <ProjeLeft />
-                    <ProjeRight {...this.state.projeler} />
-
+                    {this.state.projectsValue}
                 </div>
             </div>
         </div>
